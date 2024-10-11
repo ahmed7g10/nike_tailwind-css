@@ -10,7 +10,7 @@ const hero = () => {
     setim(s);
   }
   return (
-    <section id="home" className='sm:pt-24 pt-12 flex-col 
+    <section id="home" className='sm:pt-24 pb-8 pt-12 flex-col 
     lg:flex-row justify-center items-center sm:px-16 px-8 flex'>
       <div>
         <p className='text-primary text-lg'>Our Summer collections</p>
