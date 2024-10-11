@@ -10,7 +10,7 @@ const hero = () => {
     setim(s);
   }
   return (
-    <section id="home" className='sm:pt-24 pb-8 pt-12 flex-col 
+    <section id="home" className='sm:pt-24 pb-24 pt-12 flex-col 
     lg:flex-row justify-center items-center sm:px-16 px-8 flex'>
       <div>
         <p className='text-primary text-lg'>Our Summer collections</p>
@@ -41,7 +41,7 @@ const hero = () => {
 
       <div className='flex-1 bg-hero lg:min-h-screen flex flex-col justify-center items-center relative'>
        
-       <img className="z-10 object-contain relative" width={610} height={600} src={im} alt="" />
+       <img className="z-10 mb-10 object-contain relative" width={610} height={600} src={im} alt="" />
        
         <ul className="lg:absolute bottom-0 flex justify-center items-center gap-2 ">
           <li ><img className={im==sh1&&" border-8 border-primary "} onClick={()=>{
